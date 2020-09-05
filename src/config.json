@@ -1,0 +1,12 @@
+{
+  "db": {
+    "HOST": "192.168.11.18",
+    "PORT": 5432,
+    "USER": "admin",
+    "PASSWORD": "Passw0rd",
+    "DATABASE": "mydb"
+  },
+  "app": {
+    "PORT": 8080
+  }
+}

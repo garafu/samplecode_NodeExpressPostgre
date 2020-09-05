@@ -1,0 +1,26 @@
+{
+  "name": "node-express-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ./src/app.js",
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@garafu/mysql-fileloader": "^0.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-gzip": "^1.4.2",
+    "gulp-tar": "^3.1.0"
+  }
+}

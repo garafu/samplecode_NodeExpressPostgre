@@ -1,0 +1,19 @@
+{
+  "name": "node-express-postgres",
+  "version": "1.0.0",
+  "description": "Sample Node.js-Express-PostgreSQL Application",
+  "main": "app.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@garafu/mysql-fileloader": "^0.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  }
+}
